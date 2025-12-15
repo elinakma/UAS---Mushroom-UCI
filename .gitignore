@@ -18,6 +18,9 @@ data/*
 *.rar
 *.data
 
+# Allow requirements file even though *.txt is ignored
+!requirements.txt
+
 # Dataset audio (kalau nanti tugas lain)
 *.wav
 *.mp3
