@@ -1,0 +1,61 @@
+# ------------------------------------------------------
+# IGNORE SEMUA DATASET
+# ------------------------------------------------------
+
+# Folder data berisi dataset (tetap ignore semuanya)
+data/*
+
+# Semua jenis dataset umum
+*.csv
+*.arff
+*.xlsx
+*.xls
+*.json
+*.txt
+*.tsv
+*.zip
+*.gz
+*.rar
+*.data
+
+# Dataset audio (kalau nanti tugas lain)
+*.wav
+*.mp3
+*.ogg
+
+# Hasil download otomatis oleh script
+datasets/
+downloads/
+raw_data/
+processed_data/
+
+# ------------------------------------------------------
+# PYTHON & NOTEBOOK STUFF
+# ------------------------------------------------------
+_pycache_/
+*.pyc
+.ipynb_checkpoints/
+
+# ------------------------------------------------------
+# VIRTUAL ENVIRONMENT
+# ------------------------------------------------------
+venv/
+.env/
+*.env
+
+# ------------------------------------------------------
+# MODEL FILES
+# (kalau mau commit model, hapus baris ini)
+# ------------------------------------------------------
+# models/*
+# !models/.gitkeep
+
+# ------------------------------------------------------
+# MISC
+# ------------------------------------------------------
+.DS_Store
+
+environment/
+*.dll
+*.so
+*.pyd
