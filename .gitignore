@@ -4,6 +4,7 @@
 
 # Folder data berisi dataset (tetap ignore semuanya)
 data/*
+!data/.gitkeep
 
 # Semua jenis dataset umum
 *.csv
