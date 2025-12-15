@@ -66,6 +66,7 @@ project/
 │   └── Visualitation_Loss_Accuracy.png
 │
 ├── requirements.txt        # Dependencies
+├── Checklist_Submit.md
 ├── .gitignore
 └── README.md
 ```
@@ -73,6 +74,7 @@ project/
 
 # 3. 📊 Dataset
 
+- **Dataset:** Mushrooom  
 - **Sumber:** UCI Machine Learning Repository  
 - **Jumlah data:** 8124 baris  
 - **Tipe data:** Seluruh fitur bertipe kategorikal  
@@ -80,15 +82,33 @@ project/
   - `e` = edible  
   - `p` = poisonous  
 
-### Fitur Utama
-| Fitur | Deskripsi |
-|------|-----------|
-| cap-shape | Bentuk tudung jamur |
-| cap-surface | Tekstur permukaan tudung |
-| cap-color | Warna tudung |
-| odor | Bau jamur (fitur paling menentukan) |
-| gill-size | Ukuran bilah |
-| habitat | Lokasi jamur ditemukan |
+### 📌 Fitur Utama Dataset
+
+| **Fitur** | **Deskripsi** |
+|----------|---------------|
+| **class** | Kelas jamur: edible (bisa dimakan) atau poisonous (beracun) |
+| **cap-shape** | Bentuk tudung jamur |
+| **cap-surface** | Tekstur permukaan tudung |
+| **cap-color** | Warna tudung |
+| **bruises** | Apakah jamur berubah warna saat memar |
+| **odor** | Bau jamur |
+| **gill-attachment** | Cara bilah menempel pada batang |
+| **gill-spacing** | Jarak antar bilah |
+| **gill-size** | Ukuran bilah |
+| **gill-color** | Warna bilah |
+| **stalk-shape** | Bentuk batang |
+| **stalk-root** | Jenis akar batang |
+| **stalk-surface-above-ring** | Tekstur batang di atas cincin |
+| **stalk-surface-below-ring** | Tekstur batang di bawah cincin |
+| **stalk-color-above-ring** | Warna batang di atas cincin |
+| **stalk-color-below-ring** | Warna batang di bawah cincin |
+| **veil-type** | Jenis selubung (umumnya satu nilai saja) |
+| **veil-color** | Warna selubung |
+| **ring-number** | Jumlah cincin pada batang |
+| **ring-type** | Jenis cincin |
+| **spore-print-color** | Warna cetakan spora |
+| **population** | Kelimpahan populasi jamur |
+| **habitat** | Lokasi jamur ditemukan |
 
 ---
 
