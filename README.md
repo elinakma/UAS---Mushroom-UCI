@@ -4,7 +4,7 @@
 ## 👤 Informasi
 - **Nama:** Elin Akma Pratama
 - **Repo:** https://github.com/elinakma/UAS---Mushroom-UCI.git   
-- **Video:** https://drive.google.com/drive/folders/1wbc-086cQup9Y6eLXty6s8sS_iOgHRsh?usp=sharing 
+- **Laporan dan Video:** https://drive.google.com/drive/folders/1wbc-086cQup9Y6eLXty6s8sS_iOgHRsh?usp=sharing 
 
 ---
 
